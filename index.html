@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Battle - Minecraft Style</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: #000;
+            font-family: 'Press Start 2P', cursive;
+        }
+        #game-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        canvas {
+            flex-grow: 1;
+            width: 100%;
+            image-rendering: pixelated;
+        }
+        #hud-bottom {
+            height: 120px;
+            background: #111;
+            border-top: 4px solid #333;
+            display: flex;
+            align-items: center;
+            overflow-x: auto;
+            padding: 10px;
+            gap: 15px;
+        }
+        .fighter-icon {
+            flex-shrink: 0;
+            width: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            animation: fadeIn 0.3s ease;
+        }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .fighter-icon canvas {
+            width: 50px;
+            height: 50px;
+            background: #222;
+            border: 2px solid #555;
+            border-radius: 4px;
+        }
+        .fighter-icon span {
+            color: #aaa;
+            font-size: 8px;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 100%;
+        }
+        #top-overlay {
+            position: absolute;
+            top: 20px;
+            width: 100%;
+            pointer-events: none;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 30px;
+            box-sizing: border-box;
+        }
+        .wins-badge {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border: 2px solid #daa520;
+            color: #fff;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .streamer-info {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+        .streamer-info span {
+            color: #fff;
+            text-shadow: 2px 2px #000;
+            font-size: 18px;
+        }
+        .crown { font-size: 24px; color: #ffd700; }
+        
+        #ko-text {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #ff0000;
+            font-size: 80px;
+            text-shadow: 4px 4px #000;
+            display: none;
+            animation: koFlash 0.5s ease;
+            z-index: 100;
+        }
+        @keyframes koFlash {
+            0% { transform: translate(-50%, -50%) scale(0.5); opacity: 0; }
+            50% { transform: translate(-50%, -50%) scale(1.2); opacity: 1; }
+            100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+        }
+        
+        #test-controls {
+            position: absolute;
+            bottom: 140px;
+            right: 20px;
+            display: flex;
+            gap: 5px;
+        }
+        .test-btn {
+            background: #333;
+            color: #fff;
+            border: 2px solid #555;
+            padding: 5px 10px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 8px;
+            cursor: pointer;
+        }
+        .test-btn:hover { background: #444; }
+    </style>
+</head>
+<body>
+
+<div id="game-container">
+    <div id="top-overlay">
+        <div class="wins-badge">
+            <span id="win-count">0</span> WINS
+        </div>
+        <div class="streamer-info">
+            <div class="crown">👑</div>
+            <span>EDUGAMESDEV</span>
+        </div>
+    </div>
+    
+    <div id="ko-text">K.O</div>
+    
+    <canvas id="gameCanvas"></canvas>
+    
+    <div id="test-controls">
+        <button class="test-btn" onclick="test('comment')">COMMENT</button>
+        <button class="test-btn" onclick="test('gift')">GIFT</button>
+        <button class="test-btn" onclick="test('like')">LIKE</button>
+        <button class="test-btn" onclick="test('follow')">FOLLOW</button>
+    </div>
+    
+    <div id="hud-bottom">
+        <!-- Fighter portraits here -->
+    </div>
+</div>
+
+<script>
+    const canvas = document.getElementById('gameCanvas');
+    const ctx = canvas.getContext('2d');
+    const hudBottom = document.getElementById('hud-bottom');
+    const winCountEl = document.getElementById('win-count');
+    const koText = document.getElementById('ko-text');
+
+    let width, height;
+    let fighters = [];
+    let bosses = [];
+    let damagePopups = [];
+    let wins = 0;
+    
+    const MAX_FIGHTERS = 10;
+    const HORIZON_Y_PCT = 0.7;
+
+    function resize() {
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight - 120;
+    }
+    window.addEventListener('resize', resize);
+    resize();
+
+    class Fighter {
+        constructor(name, isBoss = false) {
+            this.name = name;
+            this.id = Math.random().toString(36).substr(2, 9);
+            this.isBoss = isBoss;
+            this.hp = isBoss ? 300 : 100;
+            this.maxHp = this.hp;
+            this.width = isBoss ? 80 : 40;
+            this.height = isBoss ? 80 : 40;
+            
+            // Random horizontal start, closer to edges if boss
+            this.x = isBoss ? width - 150 : Math.random() * (width - 100) + 50;
+            this.y = height * HORIZON_Y_PCT + (Math.random() * 40 - 20); // Near horizon
+            
+            this.targetX = this.x;
+            this.targetY = this.y;
+            this.speed = 2;
+            
+            this.lastAttack = 0;
+            this.specialTimer = 0; // For yellow glow
+            this.fadeAlpha = 1;
+            this.dead = false;
+            
+            this.color = isBoss ? '#ff4444' : '#ffffff';
+            this.createPortrait();
+        }
+
+        createPortrait() {
+            if (this.isBoss) return;
+            const container = document.createElement('div');
+            container.className = 'fighter-icon';
+            container.id = `icon-${this.id}`;
+            
+            const pCanvas = document.createElement('canvas');
+            pCanvas.width = 50;
+            pCanvas.height = 50;
+            const pCtx = pCanvas.getContext('2d');
+            
+            // Draw a stick figure head in portrait
+            pCtx.fillStyle = '#222';
+            pCtx.fillRect(0,0,50,50);
+            pCtx.strokeStyle = '#fff';
+            pCtx.lineWidth = 3;
+            pCtx.beginPath();
+            pCtx.arc(25, 20, 10, 0, Math.PI * 2);
+            pCtx.moveTo(25, 30);
+            pCtx.lineTo(25, 45);
+            pCtx.stroke();
+            
+            const nameSpan = document.createElement('span');
+            nameSpan.innerText = this.name.toUpperCase();
+            
+            container.appendChild(pCanvas);
+            container.appendChild(nameSpan);
+            hudBottom.appendChild(container);
+        }
+
+        update() {
+            if (this.dead) {
+                this.fadeAlpha -= 0.05;
+                if (this.fadeAlpha <= 0) {
+                    this.remove();
+                    return;
+                }
+                return;
+            }
+
+            // Simple AI
+            const now = Date.now();
+            if (now - this.lastAttack > 1500) {
+                this.battle();
+                this.lastAttack = now;
+            }
+
+            // Movement interpolation
+            this.x += (this.targetX - this.x) * 0.1;
+            this.y += (this.targetY - this.y) * 0.1;
+
+            if (this.specialTimer > 0) this.specialTimer--;
+        }
+
+        battle() {
+            if (this.isBoss) return;
+            
+            let target = null;
+            if (bosses.length > 0) {
+                target = bosses[0];
+            } else {
+                // Find nearest other fighter
+                let minDist = Infinity;
+                fighters.forEach(f => {
+                    if (f === this || f.dead) return;
+                    let dist = Math.abs(this.x - f.x);
+                    if (dist < minDist) {
+                        minDist = dist;
+                        target = f;
+                    }
+                });
+            }
+
+            if (target) {
+                // Move towards target
+                this.targetX = target.x + (this.x < target.x ? -40 : 40);
+                
+                // Attack if close enough
+                if (Math.abs(this.x - target.x) < 100) {
+                    let dmg = Math.floor(Math.random() * 10) + 10;
+                    if (this.specialTimer > 0) dmg *= 2; // Multiplier from gift
+                    target.takeDamage(dmg);
+                    
+                    // Simple knockback/lunge animation
+                    this.x += (target.x - this.x) * 0.2;
+                }
+            }
+        }
+
+        takeDamage(amt) {
+            this.hp -= amt;
+            damagePopups.push({
+                x: this.x,
+                y: this.y - 40,
+                text: amt,
+                timer: 60,
+                color: '#fff'
+            });
+            if (this.hp <= 0) {
+                this.hp = 0;
+                this.die();
+            }
+        }
+
+        heal(amt) {
+            this.hp = Math.min(this.maxHp, this.hp + amt);
+            damagePopups.push({
+                x: this.x,
+                y: this.y - 60,
+                text: `+${amt}`,
+                timer: 60,
+                color: '#0f0'
+            });
+        }
+
+        die() {
+            this.dead = true;
+            if (!this.isBoss) {
+                wins++;
+                winCountEl.innerText = wins;
+                showKO();
+            } else {
+                // Boss died
+                damagePopups.push({
+                    x: width/2,
+                    y: height/2,
+                    text: "BOSS DEFEATED",
+                    timer: 120,
+                    size: 40,
+                    color: '#ffd700'
+                });
+                fighters.forEach(f => f.heal(30));
+                bosses = [];
+            }
+        }
+
+        remove() {
+            if (this.isBoss) {
+                bosses = bosses.filter(b => b !== this);
+            } else {
+                fighters = fighters.filter(f => f !== this);
+                const icon = document.getElementById(`icon-${this.id}`);
+                if (icon) icon.remove();
+            }
+        }
+
+        draw() {
+            ctx.save();
+            ctx.globalAlpha = this.fadeAlpha;
+            
+            // Special glow
+            if (this.specialTimer > 0) {
+                ctx.shadowBlur = 15;
+                ctx.shadowColor = 'yellow';
+                ctx.strokeStyle = 'yellow';
+            } else if (this.isBoss) {
+                ctx.shadowBlur = 20;
+                ctx.shadowColor = 'red';
+                ctx.strokeStyle = 'red';
+            } else {
+                ctx.strokeStyle = 'black';
+                ctx.lineWidth = 3;
+            }
+
+            // Draw stick figure
+            const size = this.isBoss ? 2 : 1;
+            const h = 40 * size;
+            const w = 40 * size;
+
+            // Body (white)
+            ctx.fillStyle = this.color;
+            ctx.beginPath();
+            // Head
+            ctx.arc(this.x, this.y - h, 10 * size, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.stroke();
+
+            // Face (angry)
+            ctx.strokeStyle = '#000';
+            ctx.lineWidth = 2 * size;
+            ctx.beginPath();
+            ctx.moveTo(this.x - 4*size, this.y - h - 2*size);
+            ctx.lineTo(this.x - 2*size, this.y - h);
+            ctx.moveTo(this.x + 4*size, this.y - h - 2*size);
+            ctx.lineTo(this.x + 2*size, this.y - h);
+            ctx.stroke();
+
+            // Torso
+            ctx.beginPath();
+            ctx.moveTo(this.x, this.y - h + 10*size);
+            ctx.lineTo(this.x, this.y - 20*size);
+            // Arms
+            ctx.moveTo(this.x, this.y - h + 15*size);
+            ctx.lineTo(this.x - 15*size, this.y - h + 25*size);
+            ctx.moveTo(this.x, this.y - h + 15*size);
+            ctx.lineTo(this.x + 15*size, this.y - h + 25*size);
+            // Legs
+            ctx.moveTo(this.x, this.y - 20*size);
+            ctx.lineTo(this.x - 10*size, this.y);
+            ctx.moveTo(this.x, this.y - 20*size);
+            ctx.lineTo(this.x + 10*size, this.y);
+            ctx.stroke();
+
+            // HP Bar & Name Tag
+            if (!this.dead) {
+                const barW = 60 * size;
+                const barH = 8 * size;
+                const bx = this.x - barW/2;
+                const by = this.y - h - 35*size;
+
+                // Name tag
+                ctx.fillStyle = '#4aa02c'; // Minecraft green
+                ctx.fillRect(bx, by + barH + 5, barW, 15);
+                ctx.fillStyle = '#fff';
+                ctx.font = `${6 * size}px 'Press Start 2P'`;
+                ctx.textAlign = 'center';
+                ctx.fillText(this.name.toUpperCase(), this.x, by + barH + 16);
+
+                // HP Bar
+                ctx.fillStyle = '#222';
+                ctx.fillRect(bx, by, barW, barH);
+                ctx.fillStyle = '#0f0';
+                ctx.fillRect(bx, by, barW * (this.hp / this.maxHp), barH);
+            }
+
+            ctx.restore();
+        }
+    }
+
+    function drawSky() {
+        const grd = ctx.createLinearGradient(0, 0, 0, height * HORIZON_Y_PCT);
+        grd.addColorStop(0, "#000033"); // Dark blue top
+        grd.addColorStop(1, "#ff4500"); // Orange/red horizon
+        ctx.fillStyle = grd;
+        ctx.fillRect(0, 0, width, height * HORIZON_Y_PCT);
+    }
+
+    function drawBuildings() {
+        ctx.fillStyle = '#111122';
+        const bh = 100;
+        const groundY = height * HORIZON_Y_PCT;
+        
+        ctx.fillRect(50, groundY - 120, 80, 120);
+        ctx.fillRect(40, groundY - 100, 100, 20);
+        
+        ctx.fillRect(200, groundY - 80, 60, 80);
+        ctx.fillRect(190, groundY - 90, 80, 10);
+        
+        ctx.fillRect(width - 300, groundY - 150, 120, 150);
+        ctx.fillRect(width - 200, groundY - 180, 60, 180);
+    }
+
+    function drawGround() {
+        const groundY = height * HORIZON_Y_PCT;
+        ctx.fillStyle = '#2d4c1e'; // Dark green grass
+        ctx.fillRect(0, groundY, width, height - groundY);
+        
+        // Pixel grid lines
+        ctx.strokeStyle = '#3a6126';
+        ctx.lineWidth = 1;
+        for (let x = 0; x < width; x += 40) {
+            ctx.beginPath();ctx.moveTo(x, groundY);ctx.lineTo(x, height);ctx.stroke();
+        }
+        for (let y = groundY; y < height; y += 20) {
+            ctx.beginPath();ctx.moveTo(0, y);ctx.lineTo(width, y);ctx.stroke();
+        }
+    }
+
+    function showKO() {
+        koText.style.display = 'block';
+        setTimeout(() => { koText.style.display = 'none'; }, 1000);
+    }
+
+    function loop() {
+        ctx.clearRect(0, 0, width, height);
+        
+        drawSky();
+        drawBuildings();
+        drawGround();
+
+        fighters.forEach(f => {
+            f.update();
+            f.draw();
+        });
+        
+        bosses.forEach(b => {
+           b.update();
+           b.draw();
+        });
+
+        // Popups
+        for (let i = damagePopups.length - 1; i >= 0; i--) {
+            const p = damagePopups[i];
+            ctx.fillStyle = p.color;
+            ctx.font = (p.size || 20) + "px 'Press Start 2P'";
+            ctx.fillText(p.text, p.x, p.y);
+            p.y -= 1;
+            p.timer--;
+            if (p.timer <= 0) damagePopups.splice(i, 1);
+        }
+
+        requestAnimationFrame(loop);
+    }
+
+    // SSE Handling
+    const es = new EventSource('/stream');
+    es.onmessage = (e) => {
+        const data = JSON.parse(e.data);
+        if (data.type === 'connected') return;
+        
+        if (data.type === 'comment') {
+            if (fighters.length < MAX_FIGHTERS) {
+                fighters.push(new Fighter(data.user));
+            }
+        } else if (data.type === 'gift') {
+            // Find fighter by user name or random
+            let f = fighters.find(x => x.name === data.user) || fighters[Math.floor(Math.random()*fighters.length)];
+            if (f) {
+                f.specialTimer = 300; // 5 seconds at 60fps
+                damagePopups.push({ x: width/2, y: 100, text: "GIFT POWER!", timer: 90, color: 'yellow' });
+                // Screen flash logic could be added here
+            }
+        } else if (data.type === 'like') {
+            // Heal random fighter
+            if (fighters.length > 0) {
+                const f = fighters[Math.floor(Math.random()*fighters.length)];
+                f.heal(15);
+            }
+        } else if (data.type === 'follow') {
+            if (bosses.length === 0) {
+                bosses.push(new Fighter(data.user, true));
+                damagePopups.push({ x: width/2, y: 100, text: "BOSS INCOMING!", timer: 90, color: 'red' });
+            }
+        }
+    };
+
+    function test(type) {
+        fetch(`/test/${type}`);
+    }
+
+    loop();
+</script>
+</body>
+</html>
