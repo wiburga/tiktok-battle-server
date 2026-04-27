@@ -26,15 +26,21 @@ def receive_event():
 
 @app.route('/stream')
 def stream():
-    """Server-Sent Events endpoint"""
+    """Server-Sent Events endpoint with Heartbeat for Render compatibility"""
     def generate():
         client_queue = queue.Queue()
         clients.append(client_queue)
         yield "data: {\"type\":\"connected\"}\n\n"
+        
         try:
             while True:
-                event = client_queue.get()
-                yield f"data: {json.dumps(event)}\n\n"
+                try:
+                    # Wait for an event with a timeout for heartbeat
+                    event = client_queue.get(timeout=25)
+                    yield f"data: {json.dumps(event)}\n\n"
+                except queue.Empty:
+                    # Send a ping every 25 seconds to keep Render connection alive
+                    yield "data: {\"type\":\"ping\"}\n\n"
         except GeneratorExit:
             if client_queue in clients:
                 clients.remove(client_queue)
