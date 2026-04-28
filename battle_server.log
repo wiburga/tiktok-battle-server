@@ -1,0 +1,857 @@
+[2026-04-26 21:45:21] [INFO    ] [BattleServer.SSE] Gestor de clientes SSE iniciado
+[2026-04-26 21:45:21] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:45:21] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 21:45:21] [INFO    ] [BattleServer   ]   TikTok Live Battle Server v2.0
+[2026-04-26 21:45:21] [INFO    ] [BattleServer   ]   Puerto: 3000
+[2026-04-26 21:45:21] [INFO    ] [BattleServer   ]   Tikfinity WS: ws://localhost:21213/
+[2026-04-26 21:45:21] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 21:45:26] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:45:26] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:45:27] [DEBUG   ] [BattleServer   ] Sirviendo index.html
+[2026-04-26 21:45:27] [INFO    ] [BattleServer.SSE] Cliente #1 conectado (total: 1)
+[2026-04-26 21:45:31] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:45:31] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Sam
+[2026-04-26 21:45:32] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: follow de Blaze
+[2026-04-26 21:45:35] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:45:35] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:45:40] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:45:44] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:45:44] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:45:49] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:45:53] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:45:53] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:53:28] [INFO    ] [BattleServer.SSE] Gestor de clientes SSE iniciado
+[2026-04-26 21:53:28] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:53:28] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 21:53:28] [INFO    ] [BattleServer   ]   TikTok Live Battle Server v2.0
+[2026-04-26 21:53:28] [INFO    ] [BattleServer   ]   Puerto: 3000
+[2026-04-26 21:53:28] [INFO    ] [BattleServer   ]   Tikfinity WS: ws://localhost:21213/
+[2026-04-26 21:53:28] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 21:53:33] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:53:33] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:53:38] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:53:42] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:53:42] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:53:47] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:53:51] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:53:51] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:53:54] [INFO    ] [BattleServer.SSE] Cliente #1 conectado (total: 1)
+[2026-04-26 21:53:56] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:53:59] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 21:54:00] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:54:00] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:54:02] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: follow de Blaze
+[2026-04-26 21:54:05] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:54:09] [DEBUG   ] [BattleServer   ] Sirviendo index.html
+[2026-04-26 21:54:09] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:54:09] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:54:11] [INFO    ] [BattleServer.SSE] Cliente #2 conectado (total: 2)
+[2026-04-26 21:54:14] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-26 21:54:14] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:54:18] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 21:54:19] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:54:19] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:54:24] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:54:29] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:54:29] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:54:34] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:54:39] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:54:39] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:54:43] [INFO    ] [BattleServer.SSE] Cliente #1 desconectado (total: 1)
+[2026-04-26 21:54:44] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:54:48] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 21:54:48] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:54:48] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:54:53] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:54:56] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-26 21:54:58] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:54:58] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:55:03] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:55:05] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-26 21:55:07] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:55:07] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:55:12] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:55:17] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:55:17] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:55:21] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Sam
+[2026-04-26 21:55:22] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:55:27] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:55:27] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:55:30] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: follow de Neo
+[2026-04-26 21:55:32] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:55:36] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:55:36] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:55:41] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:55:46] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:55:46] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:55:51] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:55:55] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:55:55] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:56:00] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:56:05] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:56:05] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:56:10] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:56:15] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:56:15] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:56:20] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:56:24] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:56:24] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:56:29] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:56:34] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:56:34] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:56:39] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/...
+[2026-04-26 21:56:44] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:56:44] [WARNING ] [BattleServer.Tikfinity] Desconectado (intento #1), reconectando en 5s...
+[2026-04-26 21:57:40] [INFO    ] [BattleServer.SSE] Gestor de clientes SSE iniciado
+[2026-04-26 21:57:40] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #1)...
+[2026-04-26 21:57:40] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 21:57:40] [INFO    ] [BattleServer   ]   TikTok Live Battle Server v2.0
+[2026-04-26 21:57:40] [INFO    ] [BattleServer   ]   Puerto: 3000
+[2026-04-26 21:57:40] [INFO    ] [BattleServer   ]   Tikfinity WS: ws://localhost:21213/
+[2026-04-26 21:57:40] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 21:57:41] [INFO    ] [BattleServer.SSE] Cliente #1 conectado (total: 1)
+[2026-04-26 21:57:45] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:57:45] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 5s...
+[2026-04-26 21:57:50] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #2)...
+[2026-04-26 21:57:54] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:57:54] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 10s...
+[2026-04-26 21:58:04] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #3)...
+[2026-04-26 21:58:09] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:58:09] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 20s...
+[2026-04-26 21:58:29] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #4)...
+[2026-04-26 21:58:33] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:58:33] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 40s...
+[2026-04-26 21:59:05] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 21:59:13] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #5)...
+[2026-04-26 21:59:15] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-26 21:59:18] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 21:59:18] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 60s...
+[2026-04-26 21:59:30] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 21:59:41] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 21:59:52] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Sam
+[2026-04-26 22:00:08] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: share de Pixel
+[2026-04-26 22:00:18] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #6)...
+[2026-04-26 22:00:18] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: follow de Blaze
+[2026-04-26 22:00:23] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 22:00:23] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 60s...
+[2026-04-26 22:01:23] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #7)...
+[2026-04-26 22:05:19] [INFO    ] [BattleServer.SSE] Gestor de clientes SSE iniciado
+[2026-04-26 22:05:19] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #1)...
+[2026-04-26 22:05:19] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 22:05:19] [INFO    ] [BattleServer   ]   TikTok Live Battle Server v2.0
+[2026-04-26 22:05:19] [INFO    ] [BattleServer   ]   Puerto: 3000
+[2026-04-26 22:05:19] [INFO    ] [BattleServer   ]   Tikfinity WS: ws://localhost:21213/
+[2026-04-26 22:05:19] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 22:05:23] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 22:05:23] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 5s...
+[2026-04-26 22:05:28] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #2)...
+[2026-04-26 22:05:32] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 22:05:32] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 10s...
+[2026-04-26 22:05:42] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #3)...
+[2026-04-26 22:05:46] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 22:05:46] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 20s...
+[2026-04-26 22:05:47] [DEBUG   ] [BattleServer   ] Sirviendo index.html
+[2026-04-26 22:05:48] [INFO    ] [BattleServer.SSE] Cliente #1 conectado (total: 1)
+[2026-04-26 22:05:55] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-26 22:06:02] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 22:06:06] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 22:06:06] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #4)...
+[2026-04-26 22:06:11] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 22:06:11] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 40s...
+[2026-04-26 22:06:11] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Sam
+[2026-04-26 22:06:29] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Sam
+[2026-04-26 22:06:35] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Sam
+[2026-04-26 22:06:41] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Sam
+[2026-04-26 22:06:46] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Sam
+[2026-04-26 22:06:51] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #5)...
+[2026-04-26 22:06:53] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Alex
+[2026-04-26 22:06:56] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 22:06:56] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 60s...
+[2026-04-26 22:07:10] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: follow de Storm
+[2026-04-26 22:07:16] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Luna
+[2026-04-26 22:07:24] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Neo
+[2026-04-26 22:07:29] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Storm
+[2026-04-26 22:07:49] [WARNING ] [BattleServer.SSE] Eliminando cliente #1 por inactividad
+[2026-04-26 22:07:49] [INFO    ] [BattleServer.SSE] Cliente #1 desconectado (total: 0)
+[2026-04-26 22:07:56] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #6)...
+[2026-04-26 22:08:00] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 22:08:00] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 60s...
+[2026-04-26 22:14:26] [INFO    ] [BattleServer.SSE] Gestor de clientes SSE iniciado
+[2026-04-26 22:14:26] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #1)...
+[2026-04-26 22:14:26] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 22:14:26] [INFO    ] [BattleServer   ]   TikTok Live Battle Server v2.0
+[2026-04-26 22:14:26] [INFO    ] [BattleServer   ]   Puerto: 3000
+[2026-04-26 22:14:26] [INFO    ] [BattleServer   ]   Tikfinity WS: ws://localhost:21213/
+[2026-04-26 22:14:26] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 22:14:30] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 22:14:30] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 5s...
+[2026-04-26 22:14:35] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #2)...
+[2026-04-26 22:14:39] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 22:14:39] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 10s...
+[2026-04-26 22:14:48] [DEBUG   ] [BattleServer   ] Sirviendo index.html
+[2026-04-26 22:14:49] [INFO    ] [BattleServer.SSE] Cliente #1 conectado (total: 1)
+[2026-04-26 22:14:49] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #3)...
+[2026-04-26 22:14:52] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 22:14:52] [INFO    ] [BattleServer.Tikfinity] ✓ Conectado al WebSocket de Tikfinity
+[2026-04-26 22:14:54] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 22:15:30] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: like de Alex
+[2026-04-26 22:15:30] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: like de Blaze
+[2026-04-26 22:15:31] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: like de Alex
+[2026-04-26 22:15:32] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: like de Alex
+[2026-04-26 22:15:32] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: like de Sam
+[2026-04-26 22:15:32] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: like de Alex
+[2026-04-26 22:15:32] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: like de Charlie
+[2026-04-26 22:15:33] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: like de Charlie
+[2026-04-26 22:30:09] [INFO    ] [BattleServer.SSE] Gestor de clientes SSE iniciado
+[2026-04-26 22:30:09] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #1)...
+[2026-04-26 22:30:09] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 22:30:09] [INFO    ] [BattleServer   ]   TikTok Live Battle Server v2.0
+[2026-04-26 22:30:09] [INFO    ] [BattleServer   ]   Puerto: 3000
+[2026-04-26 22:30:09] [INFO    ] [BattleServer   ]   Tikfinity WS: ws://localhost:21213/
+[2026-04-26 22:30:09] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 22:30:13] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 22:30:13] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 5s...
+[2026-04-26 22:30:26] [DEBUG   ] [BattleServer   ] Sirviendo index.html
+[2026-04-26 22:30:18] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #2)...
+[2026-04-26 22:30:24] [INFO    ] [BattleServer.SSE] Cliente #1 conectado (total: 1)
+[2026-04-26 22:30:57] [INFO    ] [BattleServer.SSE] Cliente #2 conectado (total: 2)
+[2026-04-26 22:31:00] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 22:31:00] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 10s...
+[2026-04-26 22:31:07] [DEBUG   ] [BattleServer   ] Sirviendo index.html
+[2026-04-26 22:31:08] [INFO    ] [BattleServer.SSE] Cliente #3 conectado (total: 3)
+[2026-04-26 22:31:10] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #3)...
+[2026-04-26 22:31:11] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 22:31:11] [INFO    ] [BattleServer.SSE] Cliente #1 desconectado (total: 2)
+[2026-04-26 22:31:15] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 22:31:15] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 20s...
+[2026-04-26 22:31:15] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Blaze
+[2026-04-26 22:31:16] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 22:31:17] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-26 22:31:18] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Blaze
+[2026-04-26 22:31:35] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #4)...
+[2026-04-26 22:31:39] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[2026-04-26 22:31:39] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 40s...
+[2026-04-26 22:31:43] [INFO    ] [BattleServer.SSE] Cliente #2 desconectado (total: 1)
+[2026-04-26 22:32:08] [INFO    ] [BattleServer.SSE] Cliente #3 desconectado (total: 0)
+[2026-04-26 22:32:19] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #5)...
+[2026-04-26 22:32:22] [INFO    ] [BattleServer.Tikfinity] ✓ Conectado al WebSocket de Tikfinity
+[2026-04-26 22:34:02] [INFO    ] [BattleServer.SSE] Cliente #4 conectado (total: 1)
+[2026-04-26 22:34:22] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 22:34:47] [INFO    ] [BattleServer.SSE] Cliente #4 desconectado (total: 0)
+[2026-04-26 22:37:11] [INFO    ] [BattleServer.SSE] Cliente #5 conectado (total: 1)
+[2026-04-26 22:37:13] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 22:37:32] [INFO    ] [BattleServer.SSE] Gestor de clientes SSE iniciado
+[2026-04-26 22:37:32] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #1)...
+[2026-04-26 22:37:32] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 22:37:32] [INFO    ] [BattleServer   ]   TikTok Live Battle Server v2.0
+[2026-04-26 22:37:32] [INFO    ] [BattleServer   ]   Puerto: 3000
+[2026-04-26 22:37:32] [INFO    ] [BattleServer   ]   Tikfinity WS: ws://localhost:21213/
+[2026-04-26 22:37:32] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 22:37:35] [INFO    ] [BattleServer.Tikfinity] ✓ Conectado al WebSocket de Tikfinity
+[2026-04-26 22:37:35] [INFO    ] [BattleServer.SSE] Cliente #1 conectado (total: 1)
+[2026-04-26 22:37:35] [DEBUG   ] [BattleServer   ] Sirviendo index.html
+[2026-04-26 22:37:36] [INFO    ] [BattleServer.SSE] Cliente #2 conectado (total: 2)
+[2026-04-26 22:37:38] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 22:37:38] [INFO    ] [BattleServer.SSE] Cliente #1 desconectado (total: 1)
+[2026-04-26 22:37:41] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-26 22:46:26] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-26 22:47:02] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-26 22:47:07] [INFO    ] [BattleServer.Tikfinity] comment de luis.danny.corral (nivel 1)
+[2026-04-26 22:47:09] [INFO    ] [BattleServer.Tikfinity] comment de rosapilalumbo408 (nivel 1)
+[2026-04-26 22:47:14] [INFO    ] [BattleServer.Tikfinity] comment de jos.valencia006 (nivel 1)
+[2026-04-26 22:47:18] [INFO    ] [BattleServer.Tikfinity] comment de luis.llangari57 (nivel 1)
+[2026-04-26 22:47:19] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:47:22] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:47:27] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:47:31] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:47:37] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:47:42] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:47:42] [INFO    ] [BattleServer.Tikfinity] comment de antoc_24 (nivel 1)
+[2026-04-26 22:47:47] [INFO    ] [BattleServer.Tikfinity] Regalo: 1💎 (LOW) de isaia99
+[2026-04-26 22:47:47] [INFO    ] [BattleServer.Tikfinity] gift de isaia99 (nivel 1)
+[2026-04-26 22:47:50] [INFO    ] [BattleServer.Tikfinity] Regalo: 1💎 (LOW) de isaia99
+[2026-04-26 22:47:50] [INFO    ] [BattleServer.Tikfinity] gift de isaia99 (nivel 1)
+[2026-04-26 22:47:51] [INFO    ] [BattleServer.Tikfinity] comment de lorenacajo652 (nivel 1)
+[2026-04-26 22:47:52] [INFO    ] [BattleServer.Tikfinity] comment de carlos.veloz598 (nivel 1)
+[2026-04-26 22:47:52] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-26 22:47:58] [INFO    ] [BattleServer.Tikfinity] comment de luisrivadeneira41 (nivel 1)
+[2026-04-26 22:48:09] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:48:12] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:48:13] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:48:15] [INFO    ] [BattleServer.Tikfinity] comment de user8763845847212 (nivel 1)
+[2026-04-26 22:48:15] [INFO    ] [BattleServer.Tikfinity] Regalo: 1💎 (LOW) de isaia99
+[2026-04-26 22:48:15] [INFO    ] [BattleServer.Tikfinity] gift de isaia99 (nivel 1)
+[2026-04-26 22:48:19] [INFO    ] [BattleServer.Tikfinity] Regalo: 1💎 (LOW) de isaia99
+[2026-04-26 22:48:19] [INFO    ] [BattleServer.Tikfinity] gift de isaia99 (nivel 1)
+[2026-04-26 22:48:23] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:48:23] [INFO    ] [BattleServer.Tikfinity] comment de carmelinaestrada8 (nivel 1)
+[2026-04-26 22:48:27] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:48:39] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:49:10] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:49:10] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-26 22:49:26] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:49:30] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:49:32] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:49:33] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:49:53] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:49:53] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 22:50:02] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Skyler
+[2026-04-26 22:50:05] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-26 22:50:12] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Sam
+[2026-04-26 22:50:13] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-26 22:50:14] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 22:50:15] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 22:50:15] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-26 22:50:16] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-26 22:50:18] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-26 22:50:21] [INFO    ] [BattleServer.Tikfinity] share de isaiasdev1 (nivel 1)
+[2026-04-26 22:50:27] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 22:50:27] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 22:50:28] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-26 22:50:47] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-26 22:50:51] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-26 22:51:06] [WARNING ] [BattleServer.SSE] Eliminando cliente #2 por inactividad
+[2026-04-26 22:51:06] [INFO    ] [BattleServer.SSE] Cliente #2 desconectado (total: 0)
+[2026-04-26 22:51:49] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-26 22:51:50] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-26 22:51:50] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-26 22:51:58] [INFO    ] [BattleServer.SSE] Cliente #3 conectado (total: 1)
+[2026-04-26 22:52:15] [INFO    ] [BattleServer.Tikfinity] comment de ndduartep (nivel 1)
+[2026-04-26 22:52:21] [INFO    ] [BattleServer.Tikfinity] comment de dr__tavo (nivel 1)
+[2026-04-26 22:52:24] [INFO    ] [BattleServer.Tikfinity] comment de edygomez66 (nivel 1)
+[2026-04-26 22:52:28] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-26 22:52:38] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-26 22:52:40] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 22:52:45] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 22:52:45] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 22:52:46] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-26 22:52:46] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 22:52:47] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-26 22:52:48] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 22:52:48] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-26 22:52:48] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Sam
+[2026-04-26 22:52:49] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 22:52:49] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 22:52:49] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Sam
+[2026-04-26 22:52:49] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-26 22:52:49] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Sam
+[2026-04-26 22:52:51] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 22:53:02] [INFO    ] [BattleServer.Tikfinity] comment de ange200_2 (nivel 1)
+[2026-04-26 22:53:07] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 22:53:08] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-26 22:53:10] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Sam
+[2026-04-26 22:53:16] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-26 22:53:17] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 22:53:28] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 22:53:41] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-26 22:53:42] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-26 22:53:42] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-26 22:53:42] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 22:53:43] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 22:54:02] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 22:54:02] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-26 22:54:03] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-26 22:54:04] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 22:54:04] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 22:54:10] [WARNING ] [BattleServer.SSE] Eliminando cliente #3 por inactividad
+[2026-04-26 22:54:11] [INFO    ] [BattleServer.SSE] Cliente #3 desconectado (total: 0)
+[2026-04-26 22:54:20] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 22:54:21] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-26 22:54:23] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 22:54:23] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 22:54:23] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 22:54:27] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 22:54:28] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-26 22:54:34] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-26 22:54:45] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:55:03] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 22:55:04] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-26 22:55:04] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 22:55:07] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: follow de Pixel
+[2026-04-26 22:55:07] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: like de Neo
+[2026-04-26 22:55:07] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: like de Neo
+[2026-04-26 22:55:08] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: share de Neo
+[2026-04-26 22:55:10] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: multigift de Storm
+[2026-04-26 22:55:11] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Skyler
+[2026-04-26 22:55:13] [INFO    ] [BattleServer.Tikfinity] comment de a.nahi1 (nivel 1)
+[2026-04-26 22:55:33] [INFO    ] [BattleServer.Tikfinity] comment de christopher.gmez7 (nivel 1)
+[2026-04-26 22:55:38] [INFO    ] [BattleServer.Tikfinity] comment de marlenne_padilha6 (nivel 1)
+[2026-04-26 22:55:51] [DEBUG   ] [BattleServer   ] Sirviendo index.html
+[2026-04-26 22:55:51] [INFO    ] [BattleServer.SSE] Cliente #4 conectado (total: 1)
+[2026-04-26 22:55:54] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-26 22:55:57] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-26 22:56:08] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 22:56:10] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 22:56:10] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 22:56:10] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-26 22:56:13] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: follow de Sam
+[2026-04-26 22:56:25] [INFO    ] [BattleServer.Eventos] ¡Jordan subió a nivel 2!
+[2026-04-26 22:56:25] [INFO    ] [BattleServer.Eventos] ¡Neo subió a nivel 2!
+[2026-04-26 22:56:28] [INFO    ] [BattleServer.Eventos] ¡Luna subió a nivel 2!
+[2026-04-26 22:56:38] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 22:56:41] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 22:56:42] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-26 22:56:56] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:56:57] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-26 22:57:07] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:57:10] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: follow de Neo
+[2026-04-26 22:57:21] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:57:24] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:57:27] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:57:30] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:57:33] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:57:34] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:57:38] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:57:40] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:57:44] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 22:58:00] [INFO    ] [BattleServer.Tikfinity] comment de jc_batfan (nivel 1)
+[2026-04-26 22:58:11] [WARNING ] [BattleServer.SSE] Eliminando cliente #4 por inactividad
+[2026-04-26 22:58:11] [INFO    ] [BattleServer.SSE] Cliente #4 desconectado (total: 0)
+[2026-04-26 22:58:26] [INFO    ] [BattleServer.Tikfinity] comment de angela_carrera20 (nivel 1)
+[2026-04-26 22:58:53] [INFO    ] [BattleServer.Tikfinity] comment de stephaniveraa (nivel 1)
+[2026-04-26 22:59:52] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-26 23:00:03] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 23:00:03] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-26 23:00:03] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 23:00:03] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 23:00:04] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 23:00:04] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-26 23:00:19] [DEBUG   ] [BattleServer   ] Sirviendo index.html
+[2026-04-26 23:01:16] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Sam
+[2026-04-26 23:01:17] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: follow de Neo
+[2026-04-26 23:01:18] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: like de Skyler
+[2026-04-26 23:01:18] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-26 23:01:21] [DEBUG   ] [BattleServer   ] Sirviendo index.html
+[2026-04-26 23:01:39] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:01:56] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: ping/pong timed out
+[2026-04-26 23:01:56] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 5s...
+[2026-04-26 23:01:56] [DEBUG   ] [BattleServer   ] Sirviendo index.html
+[2026-04-26 23:01:57] [INFO    ] [BattleServer.SSE] Cliente #5 conectado (total: 1)
+[2026-04-26 23:01:57] [INFO    ] [BattleServer.SSE] Cliente #6 conectado (total: 2)
+[2026-04-26 23:02:01] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #1)...
+[2026-04-26 23:02:04] [INFO    ] [BattleServer.Tikfinity] ✓ Conectado al WebSocket de Tikfinity
+[2026-04-26 23:02:08] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:02:08] [INFO    ] [BattleServer.SSE] Cliente #6 desconectado (total: 1)
+[2026-04-26 23:02:10] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-26 23:02:26] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:02:27] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:02:33] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:03:08] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:03:10] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:03:12] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-26 23:03:16] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Neo
+[2026-04-26 23:03:20] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-26 23:03:20] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-26 23:03:30] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 23:03:41] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-26 23:03:53] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-26 23:04:02] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-26 23:04:16] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 23:04:24] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-26 23:04:26] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 23:04:37] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 23:04:45] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 23:04:47] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 23:04:55] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-26 23:05:04] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 23:05:12] [WARNING ] [BattleServer.SSE] Eliminando cliente #5 por inactividad
+[2026-04-26 23:05:12] [INFO    ] [BattleServer.SSE] Cliente #5 desconectado (total: 0)
+[2026-04-26 23:05:25] [INFO    ] [BattleServer.SSE] Cliente #7 conectado (total: 1)
+[2026-04-26 23:05:27] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 23:05:29] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-26 23:05:42] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-26 23:05:43] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:05:44] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:05:48] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:05:50] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 23:05:51] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:05:53] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:05:57] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:05:57] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 23:05:59] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 23:05:59] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:04] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:06] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-26 23:06:07] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:08] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:12] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:16] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:16] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:17] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 23:06:17] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 23:06:19] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:23] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:23] [INFO    ] [BattleServer.Eventos] ¡Blaze subió a nivel 2!
+[2026-04-26 23:06:26] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:29] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-26 23:06:30] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:30] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 23:06:31] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:35] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:39] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:42] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-26 23:06:42] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:44] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:47] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:51] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:53] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-26 23:06:55] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:06:58] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:00] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:02] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:05] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 23:07:10] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:14] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-26 23:07:14] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:18] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:23] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:25] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-26 23:07:26] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:27] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:29] [INFO    ] [BattleServer.Eventos] ¡Storm subió a nivel 2!
+[2026-04-26 23:07:30] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:33] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:36] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 23:07:37] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:40] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:42] [WARNING ] [BattleServer.SSE] Eliminando cliente #7 por inactividad
+[2026-04-26 23:07:42] [INFO    ] [BattleServer.SSE] Cliente #7 desconectado (total: 0)
+[2026-04-26 23:07:43] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:43] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:44] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-26 23:07:46] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:47] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-26 23:07:48] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:07:50] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-26 23:08:04] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 23:08:17] [INFO    ] [BattleServer.SSE] Gestor de clientes SSE iniciado
+[2026-04-26 23:08:17] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #1)...
+[2026-04-26 23:08:17] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 23:08:17] [INFO    ] [BattleServer   ]   TikTok Live Battle Server v2.0
+[2026-04-26 23:08:17] [INFO    ] [BattleServer   ]   Puerto: 3000
+[2026-04-26 23:08:17] [INFO    ] [BattleServer   ]   Tikfinity WS: ws://localhost:21213/
+[2026-04-26 23:08:17] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-26 23:08:18] [INFO    ] [BattleServer.SSE] Cliente #1 conectado (total: 1)
+[2026-04-26 23:08:19] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-26 23:08:19] [INFO    ] [BattleServer.Tikfinity] ✓ Conectado al WebSocket de Tikfinity
+[2026-04-26 23:08:33] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 23:08:35] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 23:08:51] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 23:08:57] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-26 23:08:57] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 23:09:04] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-26 23:09:12] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 23:09:14] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 23:09:22] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-26 23:09:23] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-26 23:09:28] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-26 23:09:41] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-26 23:09:41] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Sam
+[2026-04-26 23:09:42] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-26 23:09:42] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 23:09:49] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: multigift de Blaze
+[2026-04-26 23:09:52] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: follow de Sam
+[2026-04-26 23:09:54] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: follow de Alex
+[2026-04-26 23:09:55] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: like de Pixel
+[2026-04-26 23:09:57] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 23:09:57] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-26 23:09:57] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 23:09:57] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 23:09:57] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-26 23:09:59] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-26 23:09:59] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-26 23:09:59] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 23:10:00] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Skyler
+[2026-04-26 23:10:04] [INFO    ] [BattleServer.Eventos] ¡Jordan subió a nivel 2!
+[2026-04-26 23:10:04] [INFO    ] [BattleServer.Eventos] ¡Luna subió a nivel 2!
+[2026-04-26 23:10:05] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: like de Skyler
+[2026-04-26 23:10:05] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-26 23:10:05] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Skyler
+[2026-04-26 23:11:50] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Sam
+[2026-04-26 23:11:50] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-26 23:13:09] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-26 23:13:09] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-26 23:13:10] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-26 23:14:26] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-26 23:14:26] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 23:14:26] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 23:14:27] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: follow de Sam
+[2026-04-26 23:14:40] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-26 23:15:21] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-26 23:15:22] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-26 23:15:47] [INFO    ] [BattleServer.SSE] Cliente #1 desconectado (total: 0)
+[2026-04-28 17:51:30] [INFO    ] [BattleServer.SSE] Gestor de clientes SSE iniciado
+[2026-04-28 17:51:30] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #1)...
+[2026-04-28 17:51:30] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-28 17:51:30] [INFO    ] [BattleServer   ]   TikTok Live Battle Server v2.0
+[2026-04-28 17:51:30] [INFO    ] [BattleServer   ]   Puerto: 3000
+[2026-04-28 17:51:30] [INFO    ] [BattleServer   ]   Tikfinity WS: ws://localhost:21213/
+[2026-04-28 17:51:30] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-28 17:51:32] [INFO    ] [BattleServer.Tikfinity] ✓ Conectado al WebSocket de Tikfinity
+[2026-04-28 17:52:02] [DEBUG   ] [BattleServer   ] Sirviendo index.html
+[2026-04-28 17:52:03] [INFO    ] [BattleServer.SSE] Cliente #1 conectado (total: 1)
+[2026-04-28 17:52:05] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Storm
+[2026-04-28 17:52:06] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-28 17:53:09] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-28 17:56:54] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Sam
+[2026-04-28 17:57:08] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-28 17:57:23] [INFO    ] [BattleServer.Tikfinity] comment de amalaya.ec (nivel 1)
+[2026-04-28 17:57:25] [INFO    ] [BattleServer.Tikfinity] comment de milton.z..s (nivel 1)
+[2026-04-28 17:57:25] [INFO    ] [BattleServer.Tikfinity] comment de andygompa (nivel 1)
+[2026-04-28 17:57:28] [INFO    ] [BattleServer.Tikfinity] comment de povedajoyce (nivel 1)
+[2026-04-28 17:57:29] [INFO    ] [BattleServer.Tikfinity] comment de danielitaperalta37 (nivel 1)
+[2026-04-28 17:57:29] [INFO    ] [BattleServer.Tikfinity] comment de alexandratamay48 (nivel 1)
+[2026-04-28 17:57:34] [INFO    ] [BattleServer.Tikfinity] comment de juanuio72 (nivel 1)
+[2026-04-28 17:57:36] [INFO    ] [BattleServer.Tikfinity] comment de se.paciente.jr (nivel 1)
+[2026-04-28 17:57:38] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 17:57:41] [INFO    ] [BattleServer.Tikfinity] comment de anitacruz22 (nivel 1)
+[2026-04-28 17:57:46] [INFO    ] [BattleServer.Tikfinity] comment de noemi_04gs (nivel 1)
+[2026-04-28 17:57:56] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 17:57:58] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 17:57:59] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 17:58:02] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 17:58:03] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 17:58:13] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 17:58:16] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 17:58:19] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 17:58:30] [WARNING ] [BattleServer.SSE] Eliminando cliente #1 por inactividad
+[2026-04-28 17:58:30] [INFO    ] [BattleServer.SSE] Cliente #1 desconectado (total: 0)
+[2026-04-28 17:58:51] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-28 17:58:51] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-28 17:58:52] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-28 17:58:52] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-28 17:58:53] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-28 17:59:10] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-28 17:59:11] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Sam
+[2026-04-28 17:59:14] [INFO    ] [BattleServer.Tikfinity] comment de fanny.marisol (nivel 1)
+[2026-04-28 17:59:14] [INFO    ] [BattleServer.Tikfinity] comment de est4lin_j (nivel 1)
+[2026-04-28 17:59:17] [INFO    ] [BattleServer.Tikfinity] comment de crizz_.sx (nivel 1)
+[2026-04-28 17:59:25] [DEBUG   ] [BattleServer   ] Sirviendo index.html
+[2026-04-28 17:59:29] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-28 17:59:33] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: gift de Sam
+[2026-04-28 17:59:34] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: like de Storm
+[2026-04-28 17:59:38] [INFO    ] [BattleServer.SSE] Cliente #2 conectado (total: 1)
+[2026-04-28 17:59:41] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-28 18:00:13] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:00:36] [INFO    ] [BattleServer.Tikfinity] comment de la.roca2225 (nivel 1)
+[2026-04-28 18:00:57] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:01:00] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:01:12] [INFO    ] [BattleServer.Tikfinity] comment de patriciaaaa1661 (nivel 1)
+[2026-04-28 18:01:15] [INFO    ] [BattleServer.Tikfinity] comment de juan.tzep082 (nivel 1)
+[2026-04-28 18:01:16] [INFO    ] [BattleServer.Tikfinity] comment de mago.5_72 (nivel 1)
+[2026-04-28 18:01:18] [INFO    ] [BattleServer.Tikfinity] comment de dyhvg7kk627x (nivel 1)
+[2026-04-28 18:01:27] [INFO    ] [BattleServer.Tikfinity] comment de sofhi785 (nivel 1)
+[2026-04-28 18:01:30] [INFO    ] [BattleServer.Tikfinity] comment de deved.zzz (nivel 1)
+[2026-04-28 18:01:36] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:01:37] [INFO    ] [BattleServer.Tikfinity] comment de maykel.bejarano7 (nivel 1)
+[2026-04-28 18:01:38] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:01:42] [INFO    ] [BattleServer.Tikfinity] comment de user2638230521094 (nivel 1)
+[2026-04-28 18:01:45] [INFO    ] [BattleServer.Tikfinity] comment de jaky.guerrero61 (nivel 1)
+[2026-04-28 18:01:56] [INFO    ] [BattleServer.Tikfinity] comment de bigejs (nivel 1)
+[2026-04-28 18:01:56] [INFO    ] [BattleServer.Tikfinity] comment de alexanderurbinasaez (nivel 1)
+[2026-04-28 18:02:02] [INFO    ] [BattleServer.Tikfinity] comment de jota9228 (nivel 1)
+[2026-04-28 18:02:04] [INFO    ] [BattleServer.Tikfinity] share de isaiasdev1 (nivel 1)
+[2026-04-28 18:02:13] [INFO    ] [BattleServer.Tikfinity] comment de santiagoagustinpa85 (nivel 1)
+[2026-04-28 18:02:13] [INFO    ] [BattleServer.Tikfinity] comment de edits._factos (nivel 1)
+[2026-04-28 18:02:13] [INFO    ] [BattleServer.Tikfinity] comment de juanchoz77 (nivel 1)
+[2026-04-28 18:02:13] [INFO    ] [BattleServer.Tikfinity] comment de luga1246 (nivel 1)
+[2026-04-28 18:02:14] [INFO    ] [BattleServer.Tikfinity] comment de rizzgemes765 (nivel 1)
+[2026-04-28 18:02:16] [INFO    ] [BattleServer.Tikfinity] comment de mauriciocriollo40 (nivel 1)
+[2026-04-28 18:02:17] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:02:23] [INFO    ] [BattleServer.Tikfinity] comment de querochambaaa (nivel 1)
+[2026-04-28 18:02:26] [INFO    ] [BattleServer.Tikfinity] comment de perrofino2026 (nivel 1)
+[2026-04-28 18:02:27] [INFO    ] [BattleServer.Tikfinity] comment de minijhoaojg0 (nivel 1)
+[2026-04-28 18:02:30] [WARNING ] [BattleServer.SSE] Eliminando cliente #2 por inactividad
+[2026-04-28 18:02:30] [INFO    ] [BattleServer.SSE] Cliente #2 desconectado (total: 0)
+[2026-04-28 18:02:32] [INFO    ] [BattleServer.Tikfinity] comment de tungjatjeta.tokyo (nivel 1)
+[2026-04-28 18:02:34] [INFO    ] [BattleServer.Tikfinity] comment de idagg1994 (nivel 1)
+[2026-04-28 18:02:44] [INFO    ] [BattleServer.Tikfinity] comment de abner.vila3 (nivel 1)
+[2026-04-28 18:02:44] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:02:47] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:02:50] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:02:52] [INFO    ] [BattleServer.Tikfinity] comment de andino14416 (nivel 1)
+[2026-04-28 18:02:53] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:02:54] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:03:01] [INFO    ] [BattleServer.Tikfinity] comment de carlos.ajila (nivel 1)
+[2026-04-28 18:03:04] [INFO    ] [BattleServer.Tikfinity] comment de otto31376 (nivel 1)
+[2026-04-28 18:03:08] [INFO    ] [BattleServer.Tikfinity] comment de damiandrip2 (nivel 1)
+[2026-04-28 18:03:10] [INFO    ] [BattleServer.Tikfinity] comment de jordanodiaz853 (nivel 1)
+[2026-04-28 18:03:17] [INFO    ] [BattleServer.Tikfinity] comment de _jessi.cm_ (nivel 1)
+[2026-04-28 18:03:19] [INFO    ] [BattleServer.Tikfinity] comment de sofylore (nivel 1)
+[2026-04-28 18:03:22] [INFO    ] [BattleServer.Tikfinity] comment de donmono_ (nivel 1)
+[2026-04-28 18:03:24] [INFO    ] [BattleServer.Tikfinity] comment de lima79819 (nivel 1)
+[2026-04-28 18:03:24] [INFO    ] [BattleServer.Tikfinity] comment de peinadosyesi (nivel 1)
+[2026-04-28 18:03:32] [INFO    ] [BattleServer.SSE] Gestor de clientes SSE iniciado
+[2026-04-28 18:03:32] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #1)...
+[2026-04-28 18:03:32] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-28 18:03:32] [INFO    ] [BattleServer   ]   TikTok Live Battle Server v2.0
+[2026-04-28 18:03:32] [INFO    ] [BattleServer   ]   Puerto: 3000
+[2026-04-28 18:03:32] [INFO    ] [BattleServer   ]   Tikfinity WS: ws://localhost:21213/
+[2026-04-28 18:03:32] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-28 18:03:35] [INFO    ] [BattleServer.Tikfinity] ✓ Conectado al WebSocket de Tikfinity
+[2026-04-28 18:03:35] [INFO    ] [BattleServer.SSE] Cliente #1 conectado (total: 1)
+[2026-04-28 18:03:39] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:03:40] [INFO    ] [BattleServer.Tikfinity] comment de mondongoxd25 (nivel 1)
+[2026-04-28 18:03:41] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:03:41] [INFO    ] [BattleServer.Tikfinity] comment de kamel.morris1 (nivel 1)
+[2026-04-28 18:03:47] [INFO    ] [BattleServer.Tikfinity] comment de user7764372094655 (nivel 1)
+[2026-04-28 18:03:48] [INFO    ] [BattleServer.Tikfinity] comment de andersonsmirth3 (nivel 1)
+[2026-04-28 18:03:49] [INFO    ] [BattleServer.Tikfinity] comment de team.negro138_ (nivel 1)
+[2026-04-28 18:04:03] [INFO    ] [BattleServer.Tikfinity] comment de simoligorriacrack (nivel 1)
+[2026-04-28 18:04:05] [INFO    ] [BattleServer.Tikfinity] comment de fandemono67sixseven (nivel 1)
+[2026-04-28 18:04:09] [INFO    ] [BattleServer.Tikfinity] comment de lineparedes8 (nivel 1)
+[2026-04-28 18:04:22] [INFO    ] [BattleServer.Tikfinity] comment de kevinrojasperezzz (nivel 1)
+[2026-04-28 18:04:27] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:04:31] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:04:33] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:04:37] [INFO    ] [BattleServer.Tikfinity] comment de valentinofleitas7 (nivel 1)
+[2026-04-28 18:04:37] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:04:40] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:04:43] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:04:46] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:04:49] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:04:52] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:04:54] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:04:58] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:05:01] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:05:05] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:05:08] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:05:10] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:05:11] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:05:15] [INFO    ] [BattleServer.Tikfinity] comment de mary_evic (nivel 1)
+[2026-04-28 18:05:25] [INFO    ] [BattleServer.Tikfinity] comment de blade8844 (nivel 1)
+[2026-04-28 18:05:40] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:05:43] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:05:44] [INFO    ] [BattleServer.Tikfinity] comment de vt20811 (nivel 1)
+[2026-04-28 18:05:46] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:05:48] [INFO    ] [BattleServer.Tikfinity] comment de luis3629alverto (nivel 1)
+[2026-04-28 18:06:01] [INFO    ] [BattleServer.Tikfinity] comment de jueri.alexander (nivel 1)
+[2026-04-28 18:06:02] [INFO    ] [BattleServer.Tikfinity] comment de jesusssssssss6699 (nivel 1)
+[2026-04-28 18:06:02] [WARNING ] [BattleServer.SSE] Eliminando cliente #1 por inactividad
+[2026-04-28 18:06:02] [INFO    ] [BattleServer.SSE] Cliente #1 desconectado (total: 0)
+[2026-04-28 18:06:05] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:06:08] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:06:10] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:06:13] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:06:15] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:06:18] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:06:25] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:06:49] [INFO    ] [BattleServer.SSE] Gestor de clientes SSE iniciado
+[2026-04-28 18:06:49] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #1)...
+[2026-04-28 18:06:49] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-28 18:06:49] [INFO    ] [BattleServer   ]   TikTok Live Battle Server v2.0
+[2026-04-28 18:06:49] [INFO    ] [BattleServer   ]   Puerto: 3000
+[2026-04-28 18:06:49] [INFO    ] [BattleServer   ]   Tikfinity WS: ws://localhost:21213/
+[2026-04-28 18:06:49] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-28 18:06:51] [INFO    ] [BattleServer.Tikfinity] ✓ Conectado al WebSocket de Tikfinity
+[2026-04-28 18:06:52] [INFO    ] [BattleServer.SSE] Cliente #1 conectado (total: 1)
+[2026-04-28 18:06:59] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:07:18] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:07:22] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:07:23] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:07:27] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:07:28] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:07:30] [INFO    ] [BattleServer.Tikfinity] comment de juankmagasisalima (nivel 1)
+[2026-04-28 18:07:30] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:07:32] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:07:56] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-28 18:07:56] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-28 18:08:31] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:08:50] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:08:53] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:08:56] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:08:59] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:09:02] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:09:04] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:09:08] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:09:10] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:09:14] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:09:17] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:09:19] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:09:22] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:09:26] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:09:28] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:09:29] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:09:37] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:10:02] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:10:02] [INFO    ] [BattleServer.Tikfinity] comment de otto31376 (nivel 1)
+[2026-04-28 18:10:30] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:10:47] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:10:51] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:10:51] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:11:39] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:11:39] [INFO    ] [BattleServer.SSE] Cliente #1 desconectado (total: 0)
+[2026-04-28 18:11:39] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:11:44] [INFO    ] [BattleServer.SSE] Cliente #2 conectado (total: 1)
+[2026-04-28 18:12:04] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:12:29] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:12:32] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:12:35] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:12:37] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:12:40] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:13:06] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-28 18:13:33] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-28 18:13:48] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-28 18:13:48] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-28 18:14:35] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-28 18:14:36] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: follow de Storm
+[2026-04-28 18:16:03] [INFO    ] [BattleServer.SSE] Gestor de clientes SSE iniciado
+[2026-04-28 18:16:03] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #1)...
+[2026-04-28 18:16:03] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-28 18:16:03] [INFO    ] [BattleServer   ]   TikTok Live Battle Server v2.0
+[2026-04-28 18:16:03] [INFO    ] [BattleServer   ]   Puerto: 3000
+[2026-04-28 18:16:03] [INFO    ] [BattleServer   ]   Tikfinity WS: ws://localhost:21213/
+[2026-04-28 18:16:03] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-28 18:16:05] [INFO    ] [BattleServer.Tikfinity] ✓ Conectado al WebSocket de Tikfinity
+[2026-04-28 18:17:26] [INFO    ] [BattleServer.SSE] Gestor de clientes SSE iniciado
+[2026-04-28 18:17:26] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #1)...
+[2026-04-28 18:17:26] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-28 18:17:26] [INFO    ] [BattleServer   ]   TikTok Live Battle Server v2.0
+[2026-04-28 18:17:26] [INFO    ] [BattleServer   ]   Puerto: 3000
+[2026-04-28 18:17:26] [INFO    ] [BattleServer   ]   Tikfinity WS: ws://localhost:21213/
+[2026-04-28 18:17:26] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-28 18:17:26] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: share de Sam
+[2026-04-28 18:17:27] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: multigift de Alex
+[2026-04-28 18:17:27] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: follow de Storm
+[2026-04-28 18:17:27] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-28 18:17:27] [INFO    ] [BattleServer.SSE] Cliente #1 conectado (total: 1)
+[2026-04-28 18:17:27] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-28 18:17:27] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: follow de Neo
+[2026-04-28 18:17:27] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: share de Jordan
+[2026-04-28 18:17:27] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-28 18:17:27] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-28 18:17:28] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-28 18:17:28] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-28 18:17:28] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Blaze
+[2026-04-28 18:17:30] [INFO    ] [BattleServer.Tikfinity] ✓ Conectado al WebSocket de Tikfinity
+[2026-04-28 18:18:39] [INFO    ] [BattleServer.SSE] Gestor de clientes SSE iniciado
+[2026-04-28 18:18:39] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #1)...
+[2026-04-28 18:18:39] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-28 18:18:39] [INFO    ] [BattleServer   ]   TikTok Live Battle Server v2.0
+[2026-04-28 18:18:39] [INFO    ] [BattleServer   ]   Puerto: 3000
+[2026-04-28 18:18:39] [INFO    ] [BattleServer   ]   Tikfinity WS: ws://localhost:21213/
+[2026-04-28 18:18:39] [INFO    ] [BattleServer   ] ============================================================
+[2026-04-28 18:18:39] [DEBUG   ] [BattleServer   ] Sirviendo index.html
+[2026-04-28 18:18:39] [INFO    ] [BattleServer.SSE] Cliente #1 conectado (total: 1)
+[2026-04-28 18:18:41] [INFO    ] [BattleServer.Tikfinity] ✓ Conectado al WebSocket de Tikfinity
+[2026-04-28 18:18:45] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-28 18:18:58] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:19:01] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:19:41] [INFO    ] [BattleServer.Tikfinity] like de isaia99 (nivel 1)
+[2026-04-28 18:19:43] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Pixel
+[2026-04-28 18:20:17] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Neo
+[2026-04-28 18:20:17] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Skyler
+[2026-04-28 18:20:30] [INFO    ] [BattleServer.Tikfinity] comment de f3rnach0 (nivel 1)
+[2026-04-28 18:20:45] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:21:06] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-28 18:21:06] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Sam
+[2026-04-28 18:21:38] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Luna
+[2026-04-28 18:21:39] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Jordan
+[2026-04-28 18:22:22] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Sam
+[2026-04-28 18:22:23] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Alex
+[2026-04-28 18:22:51] [INFO    ] [BattleServer.Tikfinity] comment de kirby.luis (nivel 1)
+[2026-04-28 18:23:01] [DEBUG   ] [BattleServer.Eventos] Evento de prueba: comment de Charlie
+[2026-04-28 18:24:01] [INFO    ] [BattleServer.Tikfinity] comment de isaia99 (nivel 1)
+[2026-04-28 18:25:01] [ERROR   ] [BattleServer.Tikfinity] Error WebSocket: Connection to remote host was lost.
+[2026-04-28 18:25:02] [WARNING ] [BattleServer.Tikfinity] Desconectado, reconectando en 5s...
+[2026-04-28 18:25:07] [INFO    ] [BattleServer.Tikfinity] Conectando a Tikfinity en ws://localhost:21213/ (intento #1)...
